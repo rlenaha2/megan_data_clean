@@ -8,7 +8,7 @@ Created on Sun Dec 31 16:27:46 2017
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('Combined Export File2.csv')
+df = pd.read_csv('Combined Export File.csv')
 
 df = df[['subject_id', 'interval_type', 'interval_number','onset_latency', 
          'efficiency', 'waso', 'sleep_time', 'start_date', 'end_date']]
